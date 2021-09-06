@@ -676,7 +676,7 @@ class SolaredgeModbusHub:
             acpowersf = decoder.decode_16bit_int()
             acpower = self.calculate_value(acpower, acpowersf)
 
-            self.data["acpower"] = round(acpower, abs(acpowersf))
+            self.data["acpower"] = round(acpower, abs(acpowersf))/1000
 
             acfreq = decoder.decode_16bit_uint()
             acfreqsf = decoder.decode_16bit_int()

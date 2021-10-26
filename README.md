@@ -1,4 +1,16 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+ 
+Deprecated!
+This functionality is being interested into a more functional solution
+
+Api
+
+https://github.com/PeteRager/lennoxs30api
+
+Home assistant integration
+
+https://github.com/PeteRager/lennoxs30
+
 
 # home-assistant-solaredge-modbus
 Home assistant Custom Component for reading data from Solaredge inverter through modbus TCP.
